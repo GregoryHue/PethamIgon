@@ -1,13 +1,25 @@
+import time
+
 import App.Model.Model as model
+
 
 def Success(path):
     return print("Process is done. Check it here : ", path)
 
+
 def CheckingFile(path):
     return 'Checking if file exists in : ' + path + ' . . .'
 
+
 def ImageFound(path):
     return 'Image found here : ' + path
+
+
+def WorkingDots(isWorking):
+    while isWorking:
+        print('Working . . .')
+        time.sleep(5)
+
 
 def Error(typeError):
     message = ''
@@ -24,4 +36,3 @@ def Error(typeError):
         message += 'error unknown'
 
     return message
-
