@@ -1,6 +1,5 @@
 import time
 
-import App.Model.Model as model
 
 
 def Success(path):
@@ -8,13 +7,14 @@ def Success(path):
 
 
 def CheckingFile(path):
-    return 'Checking if file exists in : ' + path + ' . . .'
+    return print('Checking if file exists in : ' + path + ' . . .')
 
 
 def ImageFound(path):
-    return 'Image found here : ' + path
+    return print('Image found here : ' + path)
 
 
+# Unused
 def WorkingDots(isWorking):
     while isWorking:
         print('Working . . .')
@@ -35,4 +35,4 @@ def Error(typeError):
     else:
         message += 'error unknown'
 
-    return message
+    return print(message)

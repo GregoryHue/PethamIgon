@@ -18,14 +18,10 @@ def main():
         # outlineData = controller.SelectOutline(model.ImageOpened(newPath).convert('RGBA'))
         # newImg = controller.ModifyData(outlineData, newImg)
         # newImg.save(model.GetFolderOfFile(path) + '\\' + model.GetFileName(path) + '_outlined_new.png')
-
+        view.Success(model.GetAbsoFolderOfFile(path))
     else:
         exit(0)
 
 
 if __name__ == '__main__':
     main()
-
-
-# TODO
-# Effacer l'outline en détectant les pixels qui sont à coter d'un pixel vide

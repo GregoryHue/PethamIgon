@@ -3,7 +3,6 @@ import threading
 from PIL import Image
 
 import App.Model.Model as model
-import App.View.View as view
 
 
 def DeleteBackground(img: Image, colorToDelete: model.Color, tolerance=5, transparency=1):
