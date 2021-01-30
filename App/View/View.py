@@ -1,7 +1,6 @@
 import time
 
 
-
 def Success(path):
     return print("Process is done. Check it here : ", path)
 
@@ -15,22 +14,22 @@ def ImageFound(path):
 
 
 # Unused
-def WorkingDots(isWorking):
-    while isWorking:
+def WorkingDots(is_working):
+    while is_working:
         print('Working . . .')
         time.sleep(5)
 
 
-def Error(typeError):
+def Error(type_error):
     message = ''
     message += 'There bas been an error : '
-    if typeError == 1:
+    if type_error == 1:
         message += 'Image not found'
-    elif typeError == 2:
+    elif type_error == 2:
         message += 'Image wrong type'
-    elif typeError == 3:
-        message += ''
-    elif typeError == 4:
+    elif type_error == 3:
+        message += 'Define a color'
+    elif type_error == 4:
         message += ''
     else:
         message += 'error unknown'
