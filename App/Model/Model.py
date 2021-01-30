@@ -16,7 +16,7 @@ class Color:
 
 class Img:
     def __init__(self, path_to_img):
-        self.path_abso = str(Path(path_to_img).resolve())
+        self.path_absolute = str(Path(path_to_img).resolve())
         self.path_working = os.getcwd()
         self.path_local = str(Path(path_to_img).parent)
         self.file = Path(path_to_img).stem

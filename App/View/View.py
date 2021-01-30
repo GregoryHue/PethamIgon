@@ -13,13 +13,6 @@ def ImageFound(path):
     return print('Image found here : ' + path)
 
 
-# Unused
-def WorkingDots(is_working):
-    while is_working:
-        print('Working . . .')
-        time.sleep(5)
-
-
 def Error(type_error):
     message = ''
     message += 'There bas been an error : '

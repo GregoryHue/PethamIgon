@@ -15,8 +15,7 @@ img = model.Img(firstPath)
 def main():
     if model.FindImage(firstPath):
 
-        print('')
-        print(img.path_abso)
+        print(img.path_absolute)
         print(img.path_working)
         print(img.path_local)
         print(img.file)
