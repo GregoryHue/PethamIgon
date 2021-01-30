@@ -1,2 +1,2 @@
-# PyDeleteBackground
-Light python program that allows the user to delete the background from a picture without damaging the picture itself
+# PethamIgon
+Light Python program that offers several function to modify a picture
