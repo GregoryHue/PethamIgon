@@ -1,5 +1,3 @@
-import time
-
 
 def Success(path):
     return print("Process is done. Check it here : ", path)
