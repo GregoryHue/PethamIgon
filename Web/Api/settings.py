@@ -124,5 +124,3 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'Api/static'),
 )
 
-print(STATICFILES_DIRS)
-
