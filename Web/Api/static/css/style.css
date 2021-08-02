@@ -1,0 +1,19 @@
+body {
+    margin-left:10%;
+    margin-right:10%;
+    background-color:black;
+    color:white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-uploaded {
+    width:90%;
+}
+
+.column{
+    width:50%;
+}
