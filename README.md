@@ -17,10 +17,15 @@ Add source roots to PYTHONPATH : `✔️`
 
 ## Usage
 
-With the proper configuration, this script will read the `Images\intxt.txt` and turn it into a small picture : `Images\intxt_Ncoded.png`, then turn it back into it's original text : `Images\intxt_Ncoded_Dcoded.txt`
+With the proper configuration, this script will take the `Images\Hands.png` and create 3 others pictures of it : 
+* `Hands_new.png` Deleting the background.
+* `Hands_outlined_new.png` Deletes a border of 1px.
+* `Hands_reversed.png` Reverse The colors of the picture.
+
 
 # TODO
 
 * Make it executable with command line
 * Add parameters
 * Add interface
+* Rework the outline function
