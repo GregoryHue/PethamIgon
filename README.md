@@ -1,8 +1,6 @@
 # PethamIgon
 Small Python program that offers several functions to modify a picture
 
-Currently trying to add a browser interface, with Django
-
 ## Configuration on Pycharm
 
 Script path : `C:\folder\PethamIgon\App\Main\`
