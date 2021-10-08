@@ -20,5 +20,6 @@ from Web.Api.polls import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('salut/', views.index),
+    path('', views.index),
+    path('result/', views.result),
 ]
