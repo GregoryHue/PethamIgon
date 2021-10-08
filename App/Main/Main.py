@@ -28,8 +28,11 @@ def main():
         new_img = controller.DeleteBackground(model.open_image(img.path_file_extension).convert('RGBA'), color_to_delete, tolerance=3)
         new_img.save(img.path_file + '_new' + img.extension)
 
+<<<<<<< HEAD
         exit(0)
 
+=======
+>>>>>>> 297995a00fe3cecaebf632cd0f54526218cd3f99
         # SelectOutline
         new_img = controller.SelectOutline(model.open_image(secondPath).convert('RGBA'))
         new_img.save(model.GetFolderOfFile(firstPath) + '\\' + model.GetFileName(firstPath) + '_outlined_new.png')

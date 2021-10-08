@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+<<<<<<< HEAD
+=======
+
+.idea
+Hands_new.png
+Hands_outlined_new.png
+Hands_reversed.png
+>>>>>>> 297995a00fe3cecaebf632cd0f54526218cd3f99
