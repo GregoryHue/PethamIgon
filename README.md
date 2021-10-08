@@ -1,7 +1,4 @@
 # PethamIgon
-<<<<<<< HEAD
-Light Python program that offers several function to modify a picture
-=======
 Small Python program that offers several functions to modify a picture
 
 ## Configuration on Pycharm
@@ -28,6 +25,4 @@ With the proper configuration, this script will take the `Images\Hands.png` and 
 
 * Make it executable with command line
 * Add parameters
-* Add interface
 * Rework the outline function
->>>>>>> 297995a00fe3cecaebf632cd0f54526218cd3f99
